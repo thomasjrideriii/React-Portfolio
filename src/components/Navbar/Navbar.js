@@ -11,8 +11,8 @@ class Navigation extends Component {
                     <Menu.Item as={NavLink} to="/" active>
                         About
                     </Menu.Item>
-                    <Menu.Item as={NavLink} to="/profile">
-                        Profile
+                    <Menu.Item as={NavLink} to="/portfolio">
+                        Portfolio
                     </Menu.Item>
                     <Menu.Item as={NavLink} to="/contact" position="right">
                         Contact
