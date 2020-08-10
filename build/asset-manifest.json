@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/thomasjrideriii.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/thomasjrideriii.github.io/static/js/main.69aa9ea7.chunk.js",
+    "main.js.map": "/thomasjrideriii.github.io/static/js/main.69aa9ea7.chunk.js.map",
+    "runtime-main.js": "/thomasjrideriii.github.io/static/js/runtime-main.4109f6cb.js",
+    "runtime-main.js.map": "/thomasjrideriii.github.io/static/js/runtime-main.4109f6cb.js.map",
+    "static/js/2.fd9e7cd5.chunk.js": "/thomasjrideriii.github.io/static/js/2.fd9e7cd5.chunk.js",
+    "static/js/2.fd9e7cd5.chunk.js.map": "/thomasjrideriii.github.io/static/js/2.fd9e7cd5.chunk.js.map",
+    "index.html": "/thomasjrideriii.github.io/index.html",
+    "precache-manifest.686e728c596e9b317ec79f6425d39b3e.js": "/thomasjrideriii.github.io/precache-manifest.686e728c596e9b317ec79f6425d39b3e.js",
+    "service-worker.js": "/thomasjrideriii.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/thomasjrideriii.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.fd9e7cd5.chunk.js.LICENSE.txt": "/thomasjrideriii.github.io/static/js/2.fd9e7cd5.chunk.js.LICENSE.txt",
+    "static/media/profile.jpg": "/thomasjrideriii.github.io/static/media/profile.cdcfd5a4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4109f6cb.js",
+    "static/js/2.fd9e7cd5.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.69aa9ea7.chunk.js"
+  ]
+}
