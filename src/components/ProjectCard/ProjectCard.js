@@ -10,7 +10,7 @@ class ProjectCard extends Component {
           <Image
             src={this.props.projectInfo.image}
             wrapped
-            ui={this.props.projectInfo.url}
+            ui={this.props.projectInfo.link}
           />
           <Card.Content>
             <Card.Header>{this.props.projectInfo.name}</Card.Header>
