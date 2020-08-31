@@ -8,7 +8,10 @@ class Navigation extends Component {
         return (
             <Menu inverted={true} size="massive">
                 <Container>
-                    <Menu.Item as={NavLink} to="/" active>
+                    <Menu.Item as={NavLink} to="/">
+                        Home
+                    </Menu.Item>
+                    <Menu.Item as={NavLink} to="/about">
                         About
                     </Menu.Item>
                     <Menu.Item as={NavLink} to="/portfolio">

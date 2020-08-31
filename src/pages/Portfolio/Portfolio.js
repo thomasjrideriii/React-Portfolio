@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Card } from "semantic-ui-react";
+import { Container, Card, Responsive, Segment } from "semantic-ui-react";
 import ProjectCard from "../../components/ProjectCard/ProjectCard.js";
 import API from "../../components/lib/API";
 
@@ -16,22 +16,23 @@ class Portfolio extends Component {
     err: "",
   };
 
-  componentDidMount() {
-    API.projects()
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => this.setState({ err: error.message }));
-  }
-
   render() {
     return (
-      <Container>
+      <Container> 
+        <Responsive as={Segment} minWidth={992}>
         <Card.Group itemsPerRow={3}>
           {this.state.projects.map((project) => {
             return <ProjectCard projectInfo={project} />;
           })}
         </Card.Group>
+      </Responsive>
+        <Responsive as={Segment} maxWidth={991}>
+        <Card.Group itemsPerRow={1}>
+          {this.state.projects.map((project) => {
+            return <ProjectCard projectInfo={project} />;
+          })}
+        </Card.Group>
+      </Responsive>
       </Container>
     );
   }
